@@ -5,8 +5,12 @@
  *
  * Modifica únicamente la función para conseguirlo.
  */
-function isUpperCase(word) {
-  return true;
+function isUpperCase(palabra) {
+  if (/^[A-Z]+$/.test(palabra)){
+    return true;
+  }else {
+    return false;
+  }
 }
 
 /**

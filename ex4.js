@@ -10,7 +10,7 @@
  */
 
 function agua_necesaria(km) {
-  let agua = 1;
+  let agua = km / 2;
   return agua;
 }
 
